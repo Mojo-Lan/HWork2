@@ -9,8 +9,6 @@
 Console.WriteLine("Введите число дня недели от 1 до 7: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-void Week(int number)
-{
     if (number == 6 || number == 7)
     {
         Console.WriteLine("Выходной день");
@@ -23,7 +21,6 @@ void Week(int number)
     }
     else
         Console.WriteLine("Рабочий день");
-}
-Week(number);
+
 
 
